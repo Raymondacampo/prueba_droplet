@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="cuerpo">
+        <div class="contenido">
+            <div><h1>Hola</h1></div>
+            <div><img src="{% static 'images/pene.jpg' %}" alt="paisaje" height="300px"></div>
+            <div><h3>Fin</h3></div>
+            <a href="{% url 'about_us' %}">About us</a>
+        </div>
+    </div>
+</body>
+</html>

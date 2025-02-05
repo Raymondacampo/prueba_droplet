@@ -1,0 +1,17 @@
+.cuerpo{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    align-items: center;
+}
